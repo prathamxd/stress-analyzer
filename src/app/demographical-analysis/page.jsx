@@ -5,7 +5,7 @@ import DemoPieChart from "@/components/charts/demographic/DemoPieChart";
 
 const Demographic = () => {
   return (
-    <div className="w-full">
+    <div className="w-full h-screen">
       <h1 className="font-bold text-2xl ml-10 mt-10 text-white">
         Demographical Analysis
       </h1>
