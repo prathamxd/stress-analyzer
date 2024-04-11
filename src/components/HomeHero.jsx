@@ -8,8 +8,8 @@ import { SiTailwindcss } from "react-icons/si";
 
 const HomeHero = () => {
   return (
-    <div className="bg-[#313866]  h-screen">
-      <div className="flex items-center pl-36 py-20">
+    <div className="bg-[#313866] h-screen pl-36 py-20 flex flex-col items-start gap-16">
+      <div className="flex items-center ">
         <div className="space-y-5 w-[50%] text-white">
           <h1 className="text-6xl w-full font-bold text mb-10">
             Stress Analyzer{" "}
@@ -42,7 +42,7 @@ const HomeHero = () => {
         />
       </div>
 
-      <div className="flex flex-col items-center gap-10">
+      <div className="flex flex-col items-center gap-10 ml-12">
         <h1 className="text-white font-bold text-2xl">Technology Used</h1>
         <div className="flex gap-20 text-white items-center">
           <SiNextdotjs size={50} title="Next.js" />
