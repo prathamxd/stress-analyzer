@@ -9,7 +9,7 @@ import { SiTailwindcss } from "react-icons/si";
 const HomeHero = () => {
   return (
     <div className="bg-[#313866]  h-screen">
-      <div className="flex items-center pl-36 pb-20 pt-24">
+      <div className="flex items-center pl-36 py-20">
         <div className="space-y-5 w-[50%] text-white">
           <h1 className="text-6xl w-full font-bold text mb-10">
             Stress Analyzer{" "}
