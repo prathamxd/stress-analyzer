@@ -1,5 +1,5 @@
 import LifestylePhysicalActivity from "@/components/charts/lifestyle/LifestylePhysicalActivity";
-import LifestylePieChart from "@/components/charts/lifestyle/lifeStylePieChart";
+import LifestylePieChart from "@/components/charts/lifestyle/LifestylePieChart";
 import LifestyleRadarChart from "@/components/charts/lifestyle/LifestyleRadarChart";
 import LifestyleScatterplot from "@/components/charts/lifestyle/LifestyleScatterplot";
 import LifestyleSleepQualityBar from "@/components/charts/lifestyle/LifestyleSleepQualityBar";
