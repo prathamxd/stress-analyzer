@@ -23,7 +23,7 @@ const NavSidebar = () => {
       {mounted && (
         <Sidebar
           collapsed={isCollapsed}
-          width="20%"
+          width="23%"
           collapsedWidth="6rem"
           backgroundColor="#232D3F"
           className="h-screen fixed"
