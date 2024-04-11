@@ -58,7 +58,7 @@ const NavSidebar = () => {
             >
               <Link href="/">
                 <div
-                  className={`py-12 hover:bg-[#4D4C7D] ${
+                  className={`py-8 hover:bg-[#4D4C7D] ${
                     !isCollapsed && "mx-5"
                   } rounded-md`}
                 >
@@ -76,7 +76,7 @@ const NavSidebar = () => {
 
               <Link href="/demographical-analysis">
                 <div
-                  className={`py-12 hover:bg-[#4D4C7D] ${
+                  className={`py-8 hover:bg-[#4D4C7D] ${
                     !isCollapsed && "mx-5"
                   } rounded-md`}
                 >
@@ -94,7 +94,7 @@ const NavSidebar = () => {
 
               <Link href="/health-analysis">
                 <div
-                  className={`py-12 hover:bg-[#4D4C7D] ${
+                  className={`py-8 hover:bg-[#4D4C7D] ${
                     !isCollapsed && "mx-5"
                   } rounded-md`}
                 >
@@ -112,7 +112,7 @@ const NavSidebar = () => {
 
               <Link href="/lifestyle">
                 <div
-                  className={`py-12 hover:bg-[#4D4C7D] ${
+                  className={`py-8 hover:bg-[#4D4C7D] ${
                     !isCollapsed && "mx-5"
                   } rounded-md`}
                 >
@@ -130,7 +130,7 @@ const NavSidebar = () => {
 
               <Link href="/stress-analysis">
                 <div
-                  className={`py-12 hover:bg-[#4D4C7D] ${
+                  className={`py-8 hover:bg-[#4D4C7D] ${
                     !isCollapsed && "mx-5"
                   } rounded-md`}
                 >
