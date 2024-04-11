@@ -26,7 +26,7 @@ const NavSidebar = () => {
           width="20%"
           collapsedWidth="6rem"
           backgroundColor="#232D3F"
-          className="h-screen"
+          className="h-screen fixed"
           rootStyles={{ border: 0 }}
         >
           <div

@@ -1,4 +1,3 @@
-import NavSidebar from "@/components/NavSidebar";
 import DemoBPChart from "@/components/charts/demographic/DemoBPChart";
 import DemoBarChart from "@/components/charts/demographic/DemoBarChart";
 import DemoOccupationChart from "@/components/charts/demographic/DemoOccupationChart";
