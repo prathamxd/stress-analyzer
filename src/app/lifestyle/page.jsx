@@ -1,5 +1,5 @@
+import LifePieChart from "@/components/charts/lifestyle/LifePieChart";
 import LifestylePhysicalActivity from "@/components/charts/lifestyle/LifestylePhysicalActivity";
-import LifestylePieChart from "@/components/charts/lifestyle/LifestylePieChart";
 import LifestyleRadarChart from "@/components/charts/lifestyle/LifestyleRadarChart";
 import LifestyleScatterplot from "@/components/charts/lifestyle/LifestyleScatterplot";
 import LifestyleSleepQualityBar from "@/components/charts/lifestyle/LifestyleSleepQualityBar";
@@ -22,7 +22,7 @@ const Lifestyle = () => {
           </div>
           <div id="left-bottom" className="flex gap-10">
             <div className="h-80 bg-[#232D3F] w-[40%]">
-              <LifestylePieChart />
+              <LifePieChart /> 
               <p className="text-white text-lg -mt-14 ml-24">
                 Quality of sleep
               </p>

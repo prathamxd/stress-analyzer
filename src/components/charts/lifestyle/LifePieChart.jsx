@@ -2,7 +2,7 @@
 import { ResponsivePie } from "@nivo/pie";
 import { lifestylePieData as data } from "../../../../constants/graphData";
 
-const LifestylePieChart = () => {
+const LifePieChart = () => {
   return (
     <ResponsivePie
       data={data}
@@ -34,4 +34,4 @@ const LifestylePieChart = () => {
   );
 };
 
-export default LifestylePieChart;
+export default LifePieChart;
