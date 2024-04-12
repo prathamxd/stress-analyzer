@@ -13,21 +13,21 @@ const Lifestyle = () => {
       <div className="m-10 flex gap-10">
         <div id="left" className="flex flex-col gap-10 w-[70%]">
           <div id="left-top" className="flex gap-10">
-            <div className="h-80 bg-[#232D3F] w-[50%]">
+            <div className="h-72 bg-[#232D3F] w-[50%]">
               <LifestyleSleepQualityBar />
             </div>
-            <div className="h-80 bg-[#232D3F] w-[50%]">
+            <div className="h-72 bg-[#232D3F] w-[50%]">
               <LifestyleScatterplot />
             </div>
           </div>
           <div id="left-bottom" className="flex gap-10">
-            <div className="h-80 bg-[#232D3F] w-[40%]">
+            <div className="h-72 bg-[#232D3F] w-[40%]">
               <LifePieChart /> 
               <p className="text-white text-lg -mt-14 ml-24">
                 Quality of sleep
               </p>
             </div>
-            <div className="h-80 bg-[#232D3F] w-[60%]">
+            <div className="h-72 bg-[#232D3F] w-[60%]">
               <LifestyleRadarChart />
             </div>
           </div>

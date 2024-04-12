@@ -12,7 +12,7 @@ const Demographic = () => {
 
       <div className="m-10 flex flex-col gap-10">
         <div id="top" className="flex gap-10">
-          <div className="h-80 w-[40%] bg-[#232D3F]">
+          <div className="h-72 w-[40%] bg-[#232D3F]">
             <DemoBarChart />
           </div>
 
@@ -28,7 +28,7 @@ const Demographic = () => {
             </div>
           </div>
 
-          <div className="h-80 w-[30%] bg-[#232D3F] relative">
+          <div className="h-72 w-[30%] bg-[#232D3F] relative">
             <DemoPieChart />
             <p className="absolute bottom-5 left-24 text-lg font-medium text-white">
               Average Stress Level
@@ -37,10 +37,10 @@ const Demographic = () => {
         </div>
 
         <div id="bottom" className="flex gap-10">
-          <div className="h-80 w-[60%] bg-[#232D3F]">
+          <div className="h-72 w-[60%] bg-[#232D3F]">
             <DemoBPChart />
           </div>
-          <div className="h-80 w-[40%] bg-[#232D3F] ">
+          <div className="h-72 w-[40%] bg-[#232D3F] ">
             <DemoOccupationChart />
           </div>
         </div>
