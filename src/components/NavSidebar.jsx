@@ -17,7 +17,7 @@ const NavSidebar = () => {
   useEffect(() => {
     setMounted(true);
   }, []);
-// test
+  // test
   return (
     <>
       {mounted && (
@@ -128,7 +128,7 @@ const NavSidebar = () => {
                 </div>
               </Link>
 
-              <Link href="/stress-analysis">
+              <a href="https://stress-analyzer.streamlit.app/" target="_blank">
                 <div
                   className={`py-8 hover:bg-[#4D4C7D] ${
                     !isCollapsed && "mx-5"
@@ -144,7 +144,7 @@ const NavSidebar = () => {
                     </div>
                   </MenuItem>
                 </div>
-              </Link>
+              </a>
             </Menu>
           </div>
         </Sidebar>
