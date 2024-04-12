@@ -8,14 +8,14 @@ import { SiTailwindcss } from "react-icons/si";
 
 const HomeHero = () => {
   return (
-    <div className="bg-[#313866] h-screen pl-36 py-20 flex flex-col items-start gap-5">
+    <div className="bg-[#313866] h-screen pl-36 py-16 flex flex-col items-start gap-5">
       <div className="flex items-center">
         <div className="space-y-5 w-[50%] text-white">
-          <h1 className="text-6xl w-full font-bold text mb-10">
+          <h1 className="text-5xl w-full font-bold text mb-10">
             Stress Analyzer{" "}
           </h1>
 
-          <p className="text-gray-300 leading-8">
+          <p className="text-gray-300">
             {" "}
             This project was made to contribute to the field of mental health by
             offering a tool that can potentially assist individuals in
